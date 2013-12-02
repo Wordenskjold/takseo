@@ -49,6 +49,7 @@
         <h1>You have arrived.</h1>
         <?php
         $x = 'hej';
+        
         phpinfo();
         ?>
     </div>
