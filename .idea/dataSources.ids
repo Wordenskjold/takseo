@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source source="LOCAL" name="Data Source" product="PostgreSQL" version="9.1.9" jdbc-version="4.0" driver-name="PostgreSQL Native Driver" driver-version="PostgreSQL 9.2 JDBC4 (build 1002)" uuid="c2749778-c7bb-4aaf-9f5f-35af8156bb72">
+    <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact"/>
+    <identifier-quote-string>&quot;</identifier-quote-string>
+    <synchronize>true</synchronize>
+    <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+    <jdbc-url>jdbc:postgresql://localhost:1337/takseo</jdbc-url>
+    <user-name>postgres</user-name>
+    <user-password>df9bdf98df99</user-password>
+    <schema-pattern>takseo.public</schema-pattern>
+    <default-schemas>takseo.public</default-schemas>
+    <default-dialect>PostgreSQL</default-dialect>
+    <libraries>
+      <library>
+        <url>jar:///Volumes/Macintosh HD/Users/wordenskjold/Documents/Dev/postgresql-9.2-1002.jdbc4.jar!/</url>
+      </library>
+      <library>
+        <url>file:///Volumes/Macintosh HD/Users/wordenskjold/Documents/Dev/postgresql-driver-license.txt</url>
+      </library>
+    </libraries>
+    <ssh-properties>
+      <enabled>true</enabled>
+      <proxy-host>192.168.56.101</proxy-host>
+      <proxy-port>22</proxy-port>
+      <user>vagrant</user>
+      <use-password>true</use-password>
+      <password>dfdcdfcbdfcddfd8dfcbdfc4dfde</password>
+      <private-key-path></private-key-path>
+      <passphrase></passphrase>
+      <remote-host>localhost</remote-host>
+      <remote-port>5432</remote-port>
+      <local-port>1337</local-port>
+    </ssh-properties>
+    <schema name="public" catalog="takseo"/>
+    <table name="migrations" schema="public" catalog="takseo" type="TABLE">
+      <column name="migration" sqlType="varchar" length="255" precision="0" nullable="false" jdbcType="12"/>
+      <column name="batch" sqlType="int4" length="10" precision="0" nullable="false" jdbcType="4"/>
+    </table>
+  </data-source>
+</component>
